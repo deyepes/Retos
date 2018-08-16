@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a7385fa84dc2104dfdfcf535bf09df182b3f0f8a9dc60a380597b542c79fcdb4.html">Registros De Empleados En Orange Hr</a></span>
+                > <span class="truncate-60"><a
+                    href="a9a02d40f10533718eab61a543b2b0b2de7ad66c9fedb6fe4a26f331a396425e.html">ingresa nuevo registro en OrangeHR </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-08-2018 15:52</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registros De Empleados En Orange Hr </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">ingresa nuevo registro en OrangeHR
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5e7bb5241d75e5ba7fe7e17ca044ef6a8270477a2fe0afed4ea0ff2f4c19d65c.png" title="Dado que Juan necesita crear un empleado en el OrangeHR" width="1366"/>
+                <img src="5e7bb5241d75e5ba7fe7e17ca044ef6a8270477a2fe0afed4ea0ff2f4c19d65c.png" title="Carlos opens the Orange hrm page" width="1366"/>
+                <img src="ae8d805e23977d5e4a4deef50d471ddfcfecb5f18af6a2db4f3e6e8f57b80adb.png" title="Cuando el realiza el ingreso del registro en la aplicaci&oacute;n
+| firstName | MiddleName | lastName | Location | DateBirth | MaritalStatus | Gender | Nationality | LicenseNumber | LicenseExpiry | NickName | MilitaryService | BloodGroup | Hobbies |
+| Carlos | Emilio | Valderrama | German Regional HQ | 2000-08-01 | Married | MALE | Colombian | 1234 | 2022-08-01 | ca123 | OK | AB | CYCLING |" width="1366"/>
+                <img src="ee14a034ec4b4a662238b9a04f91f79f25ea848150db745994340eecf114123c.png" title="Carlos clicks on bot&oacute;n login" width="1366"/>
+                <img src="1f25689a2d3ca1267b9f37a89c5e6fb46ef32cd2d8a386eac6b428ca161ebfb3.png" title="Carlos clicks on bot&oacute;n PIM" width="1366"/>
+                <img src="416910ff958c3771ec86c4e1c3e8a173bafe8adc39c75a7b77f930f55b3d4d24.png" title="Carlos clicks on bot&oacute;n PIM" width="1366"/>
+                <img src="ab0d3ed9cd922b7ea7ebd61b633a8f63dc43bd16fcb526cc65caa401aa75991b.png" title="Carlos enters 'Carlos' into input first name" width="1366"/>
+                <img src="942ccf2c5dff76d6546fdaa0abcd82e22da3ae7a6bc68d61792baafb04ecd2a1.png" title="Carlos enters 'Emilio' into input middle name" width="1366"/>
+                <img src="3750f10d61ed009a830962239605a557a25e1bc41555d7c5f73475292c963863.png" title="Carlos enters 'Valderrama' into input last name" width="1366"/>
+                <img src="1e2c4eec70e3e2e9af37f90ddb3ce1c1f15da17319a738eb3dd68f38b2c9b8b6.png" title="Carlos clicks on ubicacion" width="1366"/>
+                <img src="48f7cbc9abda38bd67461afc768dd837414cf1672b62ef81245f2aa4a256f2cd.png" title="Carlos clicks on boton guardar" width="1366"/>
+                <img src="9246afc00daf93653a67d85772a4f51e0ee0ed1b4cd666d9682fb0949cb9d6e0.png" title="Carlos enters '2000-08-01' into fecha de nacimiento" width="1366"/>
+                <img src="7c938ac7892862b249294ff1bae4c5812f8f1e446484d02ef89ce900c518178c.png" title="Carlos clicks on estado civil" width="1366"/>
+                <img src="7295437b4277ef54b908f729cb64c89062bd8af876bf448c3de6be98537284d4.png" title="Carlos clicks on masculino" width="1366"/>
+                <img src="3d8add4d9d22cae89c8b9e7fb514a1aaa7122649d9645318e09b2b1c09531cac.png" title="Carlos clicks on nacionalidad" width="1366"/>
+                <img src="64454b6c8052c9ac3263d6ef13e98c713f02dffb64f923b7dfd3758e51ee4e59.png" title="Carlos enters '1234' into numero de licencia de conduccion" width="1366"/>
+                <img src="d4ec2f975fdc763e112ceb5ed7e2033da3c65cd6664f986b26ff22de62f8eb5a.png" title="Carlos enters '2022-08-01' into fecha de expiraci&oacute;n licencia de conduccion" width="1366"/>
+                <img src="3ffec70c3291c510116cfd36c54637d971eaa637315ba42d48035ab8e425883e.png" title="Carlos enters 'ca123' into nick name" width="1366"/>
+                <img src="06957f4730ec4f3ff04c5275d3be213aa46ec1fb2a8ebfc2fc20fb977d19c5ff.png" title="Carlos enters 'OK' into nick name" width="1366"/>
+                <img src="a38e93cebca7dd4f51e94e6d3fe1af3f82afa165c04c7c447051722383ef2b93.png" title="Carlos clicks on grupo sanguineo" width="1366"/>
+                <img src="38120a0f664afd6da5fc17a17a31887fea6e3f51a0fbd82221a812d2e6d34184.png" title="Carlos enters 'CYCLING' into hobbies" width="1366"/>
+                <img src="bbc20d5487bc45e9e30e213d7411037cf20a371a62a2d2eb63f0a98b41e074cd.png" title="Carlos clicks on boton guardar 1" width="1366"/>
+                <img src="b3eb1abe522d97abde2a98c77191ce56aecb7e169c1d10a6509f06793e2b9add.png" title="Entonces el visualiza el nuevo empleado en el aplicativo
+| firstName | MiddleName | lastName | Location | DateBirth | MaritalStatus | Gender | Nationality | LicenseNumber | LicenseExpiry | NickName | MilitaryService | BloodGroup | Hobbies |
+| Carlos | Emilio | Valderrama | German Regional HQ | 2000-08-01 | Married | MALE | Colombian | 1234 | 2022-08-01 | ca123 | OK | AB | CYCLING |" width="1366"/>
+                <img src="77b4e47f870eadd7b0b6e544a2e93dcc4c86ac976a111b8d68b7c15e36034e5e.png" title="Carlos clicks on mostrar empleados" width="1366"/>
+                <img src="55caa60ed985a2b7b68367be2913e1496a1b4fb7d82a68894c699e095ad76537.png" title="Carlos enters 'Carlos Emilio Valderrama' into Campo ingreso nombre" width="1366"/>
+                <img src="95dae4378c3e1ba2c2f8a15a78df7c61e2a0a14884cff6f13e298735c54acace.png" title="Carlos clicks on boton de busqueda" width="1366"/>
+                <img src="b3eb1abe522d97abde2a98c77191ce56aecb7e169c1d10a6509f06793e2b9add.png" title="Then el empleado should be a string containing 'Carlos Emilio Valderrama': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

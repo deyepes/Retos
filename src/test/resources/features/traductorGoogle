@@ -1,0 +1,11 @@
+#language:es
+#Author: your.email@your.domain.com
+@tag
+Característica: Traductor de google
+
+  @tag1
+  Escenario: Traducir del inglés al español
+    Dado que Esteban quiere usar el Traductor de Google
+    Cuando el traduce la palabra table de Inglés al Español
+    Entonces el debería ver la palabra Mesa en la pantalla
+
