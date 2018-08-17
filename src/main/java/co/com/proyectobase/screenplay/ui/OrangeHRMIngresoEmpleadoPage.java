@@ -6,9 +6,8 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.serenitybdd.core.annotations.findby.By;
 
 @DefaultUrl("https://orangehrm-demo-6x.orangehrmlive.com/")
-public class OrangeHRMPage extends PageObject {
+public class OrangeHRMIngresoEmpleadoPage extends PageObject {
 
-	public static Target LOGUEARSE = Target.the("botón login").located(By.id("btnLogin"));
 	public static Target MODULO_INFORMACION_PERSONAL = Target.the("botón PIM").located(By.id("menu_pim_viewPimModule"));
 	public static Target AGREGAR_EMPLEADO = Target.the("botón PIM").located(By.id("menu_pim_addEmployee"));
 	public static Target NOMBRE = Target.the("input first name").located(By.id("firstName"));
@@ -33,8 +32,4 @@ public class OrangeHRMPage extends PageObject {
 	public static Target LISTA_GRUPO_SANGUINEO = Target.the("lista grupo sanguineo").located(By.xpath("//*[@id='1_inputfileddiv']/div/ul"));
 	public static Target HOBBIES = Target.the("hobbies").located(By.id("5"));
 	public static Target MENSAJE_EXITOSO = Target.the("mensaje exitoso").located(By.className("toast-message	"));
-	public static Target LISTA_EMPLEADOS = Target.the("mostrar empleados").located(By.id("menu_pim_viewEmployeeList"));
-	public static Target NOMBRE_EMPLEADO = Target.the("Campo ingreso nombre").located(By.id("employee_name_quick_filter_employee_list_value"));
-	public static Target BUSQUEDA = Target.the("boton de busqueda").located(By.id("quick_search_icon"));
-	public static Target EMPLEADO_ENCONTRADO = Target.the("empleado encontrado en la busqueda").located(By.xpath("//*[@id='employeeListTable']/tbody/tr[1]/td[3]"));
-}
+	}

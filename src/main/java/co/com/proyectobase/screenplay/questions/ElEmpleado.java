@@ -1,6 +1,6 @@
 package co.com.proyectobase.screenplay.questions;
 
-import static co.com.proyectobase.screenplay.ui.OrangeHRMPage.EMPLEADO_ENCONTRADO;
+import static co.com.proyectobase.screenplay.ui.OrangeHRMConsultaEmpleadoPage.EMPLEADO_ENCONTRADO;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

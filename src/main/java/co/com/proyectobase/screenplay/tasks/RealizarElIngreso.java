@@ -12,7 +12,8 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import static co.com.proyectobase.screenplay.ui.OrangeHRMPage.*;
+import static co.com.proyectobase.screenplay.ui.OrangeHRMPrincipalPage.*;
+import static co.com.proyectobase.screenplay.ui.OrangeHRMIngresoEmpleadoPage.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class RealizarElIngreso implements Task {

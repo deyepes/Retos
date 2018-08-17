@@ -9,7 +9,8 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.proyectobase.screenplay.ui.OrangeHRMPage.*;
+import static co.com.proyectobase.screenplay.ui.OrangeHRMIngresoEmpleadoPage.*;
+import static co.com.proyectobase.screenplay.ui.OrangeHRMConsultaEmpleadoPage.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class RealizarLaBusqueda implements Task{
